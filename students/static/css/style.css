@@ -1,0 +1,134 @@
+/* ===== Global ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-color: white;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    background-color: #007bff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:yellow;
+}
+
+.navbar a {
+    color: yellow;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+
+}
+
+/* ===== Container ===== */
+.container {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* ===== Card ===== */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    width: 60%;
+}
+
+
+/* ===== Table ===== */
+table {
+    width: 1000%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 12px 20px;
+}
+
+table th {
+    background-color: #007bff;
+    color: yellow;
+    text-align:left;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    text-align: right;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* ===== Buttons ===== */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* ===== Login Page ===== */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1976d2;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th:nth-child(2),
+td:nth-child(2) {
+    text-align: right;
+}
+
